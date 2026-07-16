@@ -54,6 +54,8 @@ group_resources+=(internalreleaseimages.machineconfiguration.openshift.io)
 # Networking Resources
 group_resources+=(networks.operator.openshift.io)
 
+# Two Node Fencing (Pacemaker) Resources
+group_resources+=(pacemakerclusters.etcd.openshift.io)
 
 # Assisted Installer
 named_resources+=(ns/assisted-installer)
